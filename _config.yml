@@ -1,0 +1,26 @@
+title:              TaPP2023
+stitle:             TaPP2023
+email:              tapp2022sigmod@gmail.com
+description:
+author:             TaPP2023
+baseurl:            "/TaPP2023"
+url:                "https://tapp2022.github.io/"
+
+# Social Profiles
+
+github_username:    tapp2022
+
+instagram_username:
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
